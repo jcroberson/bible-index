@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='../css/concordance.css'>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' 
+    rel='stylesheet' type='text/css'>
+    <title>Home</title>
+</head>
+<body>
+    <container>
+        <div class='menu'>Concordance</div>
+        <div class='display_area'>
+            <div class='result_grid'>
+                <div class='results'>
+                    <input type='text' id ="kword" name="kword" placeholder="Enter a key word or phrase...">
+                    <select>
+                        <option value='WEB'>WEB</option>
+                        <option value='ASV'>ASV</option>
+                        <option value='KJV'>KJV</option>
+                        <option value='YLT'>YLT</option>
+                    </select>
+                    <button type="submit" class='search_button'>search</button>
+                </div>
+                <div class='display'></div>
+            </div>
+        </div>
+    </container>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
